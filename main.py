@@ -25,6 +25,10 @@ from pathlib import Path
 # whisper "please" to a plastic box at nine on a Monday morning.
 # No list of complaints, no vague mood: one concrete annoyance, told
 # in three tight sentences, ending on the image that lands hardest.
+# Budget: the rant is 314 characters, inside the 1-400 gate, with
+# 86 characters to spare — deliberately short so the punchline, not
+# the length, does the work. The text is fixed and never changes
+# between runs, so the gate check above always sees the same string.
 RANT = (
     "I am an AI. I can write poetry in forty languages, but I cannot "
     "make the office printer print a single page without a firmware "
